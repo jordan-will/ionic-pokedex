@@ -65,4 +65,8 @@ export class ApiService {
     )   
   }
 
+  getPokemonByName(pokemonName:string): Observable<any> {
+    return this.http.get<any>(`${environment.BASE_URL}pokemon/${pokemonName}/`)
+  }
+
 }

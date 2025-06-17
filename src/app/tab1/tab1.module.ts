@@ -7,6 +7,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { PokemonItemModule } from '../components/pokemon-item/pokemon-item.module';
+import { SearchModule } from '../components/search/search.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { PokemonItemModule } from '../components/pokemon-item/pokemon-item.modul
     FormsModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
-    PokemonItemModule
+    PokemonItemModule,
+    SearchModule
   ],
   declarations: [Tab1Page]
 })

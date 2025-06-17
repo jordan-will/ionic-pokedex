@@ -23,11 +23,8 @@ export class DetailPage {
 
   ionViewWillEnter() {
     const pokemonId = this.route.snapshot.paramMap.get('id');
-    console.log('Pokemon ID:', pokemonId);
-
     this.apiService.getPokemoDetail(Number(pokemonId))
       .subscribe((pokemon) => {
-        console.log('POKEMON DETAIL', pokemon);
         this.pokemonDetail = { ...pokemon }
       })
   }

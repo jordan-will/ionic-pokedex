@@ -16,13 +16,11 @@ export class Tab2Page {
 
   ionViewWillEnter() {
     this.pokemonList = [...this.storeService.getFavorites()];
-    console.log('FAVORITES', this.pokemonList);
   }
   
   removeFromFavorites(event:any, pokemonId: string|number) {
     this.storeService.removeFavorite(pokemonId);
     this.pokemonList = [...this.storeService.getFavorites()];
-    console.log('FAVORITES', this.pokemonList);
   }
 
   

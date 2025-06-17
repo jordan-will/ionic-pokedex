@@ -12,6 +12,7 @@ export class Tab1Page{
   public pokemonList:any[] = []
   public offset: number = 0;
   public limit: number = 20;
+  public showSearch: boolean = false;
 
   constructor(public apiService: ApiService) {}
 
