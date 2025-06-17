@@ -53,3 +53,9 @@ Confira abaixo alguns dos principais recursos do projeto:
 ```bash
   ionic serve
 ```
+
+### O ícone do aplicativo é uma cortesia da plataforma FlatIcon, e pode ser acessado no link abaixo.
+
+```bash
+  https://www.flaticon.com/free-icons/pokemon
+```
