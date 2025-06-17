@@ -31,7 +31,7 @@ Confira abaixo alguns dos principais recursos do projeto:
 <img src="./mockups/3_pesquisa.png" alt="Interface de pesquisa por nome" width="300" />
 <img src="./mockups/4_detalhe.png" alt="Detalhamento do Pokémon" width="300" />
 <img src="./mockups/5_info.png" alt="Exibição de informações adicionais" width="300" />
-<img src="./mockups/6_favorittos.png" alt="Tela de pokémons favoritos" width="300" />
+<img src="./mockups/6_favoritos.png" alt="Tela de pokémons favoritos" width="300" />
 
 
 ### Instalação
