@@ -20,7 +20,7 @@
 
 ### Descrição
 
-IonicDéx é uma aplicação desenvolvida com Ionic e Angular que funciona como uma PokéDex completa e interativa. Com um design responsivo e moderno, o app oferece a possibilidade de explorar uma lista enorme de pokémons, buscar pelo nome, visualizar detalhes enriquecidos, ouvir os sons característicos e conferir a versão shiny dos pokémons. Além disso, o infinite scroll garante uma experiência de navegação fluída e dinâmica.
+IonicDéx é uma aplicação desenvolvida com Ionic e Angular que funciona como uma PokéDex. Com um design responsivo, o app oferece a possibilidade de explorar pokémons, buscar pelo nome, visualizar detalhes, ouvir os sons característicos e conferir a versão shiny dos pokémons. Além disso, o infinite scroll garante uma experiência de navegação fluída e dinâmica.
 
 ### Screenshots
 
