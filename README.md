@@ -26,23 +26,13 @@ IonicDéx é uma aplicação desenvolvida com Ionic e Angular que funciona como 
 
 Confira abaixo alguns dos principais recursos do projeto:
 
-![Loading](./mockups/1_loading.png)
-*Tela de carregamento*
+<img src="./mockups/1_loading.png" alt="Tela de carregamento" width="300" />
+<img src="./mockups/2_lista.png" alt="Visualização da lista de pokémons" width="300" />
+<img src="./mockups/3_pesquisa.png" alt="Interface de pesquisa por nome" width="300" />
+<img src="./mockups/4_detalhe.png" alt="Detalhamento do Pokémon" width="300" />
+<img src="./mockups/5_info.png" alt="Exibição de informações adicionais" width="300" />
+<img src="./mockups/6_favorittos.png" alt="Tela de pokémons favoritos" width="300" />
 
-![Lista de Pokémons](./mockups/2_lista.png)
-*Visualização da lista de pokémons com infinite scroll*
-
-![Pesquisa de Pokémon](./mockups/3_pesquisa.png)
-*Interface de pesquisa por nome*
-
-![Detalhe do Pokémon](./mockups/4_detalhe.png)
-*Detalhamento das informações do Pokémon*
-
-![Informações Adicionais](./mockups/5_info.png)
-*Exibição de dados e estatísticas complementares*
-
-![Favoritos](./mockups/6_favorittos.png)
-*Tela de pokémons favoritos*
 
 ### Instalação
 
