@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { StoreService } from '../services/store.service';
 
 @Component({
   selector: 'app-tab2',
@@ -8,6 +9,21 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  public pokemonList: any[] = [];
+  constructor(
+    public storeService: StoreService
+  ) {}
 
+  ionViewWillEnter() {
+    this.pokemonList = [...this.storeService.getFavorites()];
+    console.log('FAVORITES', this.pokemonList);
+  }
+  
+  removeFromFavorites(event:any, pokemonId: string|number) {
+    this.storeService.removeFavorite(pokemonId);
+    this.pokemonList = [...this.storeService.getFavorites()];
+    console.log('FAVORITES', this.pokemonList);
+  }
+
+  
 }

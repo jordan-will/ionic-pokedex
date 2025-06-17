@@ -1,22 +1,31 @@
-.pokeName{
+.pokeName {
   text-align: center;
   font-size: 2em;
 }
 
-.title{
+.title {
   text-transform: capitalize;
 }
 
-.sprite{
+.sprite {
+  position: relative;
   display: block;
   margin: auto;
-  // width: 100%;
-  min-width: 120px;
-  min-width: 120px;
-  max-width: 200px;
-  max-height: 200px;
+  background-color: #f9f9f9;
+  width: 100%;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
-ion-label{
+.favorite-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+ion-label {
   text-transform: capitalize;
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-pokemon-item',
@@ -6,14 +6,19 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./pokemon-item.component.scss'],
   standalone: false
 })
-export class PokemonItemComponent  implements OnInit {
+export class PokemonItemComponent {
 
   @Input() id!:string|number;
   @Input() name!:string;
   @Input() sprite!:string;
+  @Input() fromFavorite:boolean = false;
 
-  constructor() { }
+  @Output() removeFavorite = new EventEmitter<any>();
 
-  ngOnInit() {}
+  onButtonClick(event:any): void {
+    event.stopPropagation();
+    event.preventDefault();
+    this.removeFavorite.emit();
+  }
 
 }
