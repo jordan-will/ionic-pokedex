@@ -2,6 +2,8 @@
 
 ## A PokéDex do Ionic
 
+<img src="./mockups/ionic-dex.gif" alt="Tela de carregamento" width="300" />
+
 ### Funcionalidades
 
 - **Lista de Pokémons:** Exibe todos os pokémons com informações relevantes.  
