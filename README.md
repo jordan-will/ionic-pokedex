@@ -38,9 +38,9 @@ Confira abaixo alguns dos principais recursos do projeto:
 
 1. **Clone o repositório:**
 
-   ```bash
+```bash
    git clone https://github.com/jordanwmp/projeto-pokeapi.git
-   ```
+```
 
 2. **Instale as dependências:**
 
