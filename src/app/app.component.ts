@@ -38,7 +38,8 @@ export class AppComponent {
           );
           document.body.style.setProperty(
             "--ion-safe-area-bottom",
-            `${insets.bottom}px`
+            // `${insets.bottom}px`
+            `0px`
           );
           document.body.style.setProperty(
             "--ion-safe-area-left",
